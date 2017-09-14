@@ -1,0 +1,21 @@
+A continuación mis fuentes: 
+
+cambio de repositos :
+	http://www.codigonomada.com/solucionar-cambio-de-medio-debian/
+
+Mysql com.optimizedproductions.serialHelper.serial_utils:
+	http://www.ite.educacion.es/formacion/materiales/85/cd/linux/m5/instalacin_y_configuracin_de_mysql.html
+
+Apache : 
+	http://www.comoinstalarlinux.com/como-instalar-apache-en-debian-7/
+
+Php:
+	http://php.net/manual/es/install.unix.debian.php
+
+Php myAdmin :
+	https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-debian-7
+
+
+
+:D
+
