@@ -234,6 +234,7 @@ public class SerialAdmin {
 			out.flush();
 			return true;
 		} catch (Exception e) {
+			e.printStackTrace();
 			return false;
 		}
 	}
@@ -245,6 +246,7 @@ public class SerialAdmin {
 			out.flush();
 			return true;
 		} catch (Exception e) {
+			e.printStackTrace();
 			return false;
 		}
 	}
@@ -255,6 +257,7 @@ public class SerialAdmin {
 			out.flush();
 			return true;
 		} catch (Exception e) {
+			e.printStackTrace();
 			return false;
 		}
 	}
@@ -265,6 +268,7 @@ public class SerialAdmin {
 			out.flush();
 			return true;
 		} catch (Exception e) {
+			e.printStackTrace();
 			return false;
 		}
 	}
@@ -275,6 +279,7 @@ public class SerialAdmin {
 			out.flush();
 			return true;
 		} catch (Exception e) {
+			e.printStackTrace();
 			return false;
 		}
 	}
@@ -297,7 +302,9 @@ public class SerialAdmin {
 				g += (char) data;
 				data = in.read();
 			}while (data != -1 && data != 10 && data != 13);
-		} catch (Exception e) {}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		g=g.replaceAll("\r", "");
 		g=g.replaceAll("\n", "");
 		return g;
@@ -313,7 +320,9 @@ public class SerialAdmin {
 		try {
 			int data = in.read();
 			g =  (byte) data;
-		} catch (Exception e) {}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		return g;
 	}
 	public byte[] readByteArray(){
